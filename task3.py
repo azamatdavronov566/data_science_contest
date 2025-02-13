@@ -1,5 +1,5 @@
 import time
-
+#
 def decorator_1(func):
     def wrapper(*args, **kwargs):
         start_time = time.perf_counter()
