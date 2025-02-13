@@ -8,7 +8,7 @@ from task3 import decorator_1
 print(kwargsAcceptFun(name="Azamat", age=19, email="a.davronov@newuu.uz", major="AI"))
 print(kwargsAcceptFun(name = "Oxun", age = 20, email = "o.oxie@newuu.uz", major = "Medicine"))
 
-#2
+#2,
 data = { "mapping": {"a": 1, "b": 2},}
 result = typeBasedTransformer(**data)
 print(result)
